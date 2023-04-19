@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial;
+}
+
+.landing-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-block {
+    text-align: center;
+}
+
+.button-block {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.button-black {
+    background-color: black;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+}
+
+
+.room-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.subroom {
+    background-image: url("pic2.png");
+    background-size: cover;
+    background-position: center center;
+    margin: 50px;
+}
+
+
+.film {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.image-gallery img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin: 10px;
+}
